@@ -9,7 +9,7 @@ class Index extends My_Controller {
 	}
 	public function index() {
 		$data['lang'] = $this->session->userdata('language');
-		$data['title'] = '首页';
+		$data['title'] = $data['lang'] == 'cn'? '首页' : 'Home';
 		$data['newsList'] = $this->news_model->get(0, 4);
 		$this->load_temp(array(0 => $data['lang'].'/index'), $data);
 	}

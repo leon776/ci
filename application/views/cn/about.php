@@ -1,137 +1,141 @@
-<link href="assets/css/work.css" rel="stylesheet">
+<link href="assets/css/contact.css" rel="stylesheet">
+
 <div class="slide page-heading">
      <div class="container">
-        <h1>全球医保</h1>
+        <h1>关于我们</h1> 
      </div>
 </div>
  
-<div class="slide insurance_1">
-     <div class="container">
-        <h3 class="name">优势介绍</h3>
-        <div class="txt">
-            <p>打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快<br>
-            过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，<br>
-            提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提<br>
-            供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈</p>
-        </div>
-        <div class="pic"><img src="assets/images/insurance_1.png" alt=""></div>
+<div class="office-address">
+     <div class="image"><img src="assets/images/office.jpg" alt="深圳市格蕾医疗公司"></div>
+     <div class="content">
+         <h3>深圳市格蕾医疗公司</h3>
+         <span class="address">地址：深圳深南大道1002号地王大厦1205</span>
+         <span class="phone">电话：+86 0755 26008787</span>
+         <span class="email">邮箱：<a href="mailto:info@grey.com">info@grey.com</a></span> 
      </div>
 </div>
+ 
+<div id="dituContent" class="slide map-canvas"></div><!-- /.contact -->
 
-<div class="slide insurance_2">
-     <div class="container">
-        <h3 class="name">产品简介</h3>
-        <div class="txt">
-            <p>打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快<br>
-            过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，<br>
-            提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提<br>
-            供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈</p>
-        </div>
-        <div class="pic"><img src="assets/images/insurance_2.png" alt=""></div>
-     </div>
-</div>
+ 
+<div class="slide about">
+    <div class="container">     
+        <ul class="about_advantage"> <!-- 注意此处列表单双有区别: <li class="list dual"> -->
+        <li class="list">
+            <p class="pic"><img src="assets/images/about_1.png" alt="优势介绍"></p> 
+            <h3>优势介绍</h3>
+            <p>打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈</p> 
+        </li>
+        <li class="list dual">
+            <p class="pic"><img src="assets/images/about_2.png" alt="医疗资源"></p> 
+            <h3>医疗资源</h3>
+            <p>打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈</p> 
+        </li>
+        <li class="list">
+            <p class="pic"><img src="assets/images/about_3.png" alt="差异化产品"></p> 
+            <h3>差异化产品</h3>
+            <p>打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈，打通亚洲4小时医疗圈，提供一站式行程安排，医病速度快过国内,打通亚洲4小时医疗圈</p> 
+        </li>
+        </ul> <!-- /.about_advantage -->  
+    </div><!-- /.container -->
+</div><!-- /.slide.contact-form -->  
 
-<div id="slide-portfolio" class="slide portfolio">
-    <div class="container">
-        <h2 class="title">合作伙伴</h2>
-        <div id="module-ajax-list" class="row grid cs-style-3"> <!-- 上传图片大小：360*285px -->
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+<script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
     
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_1.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_2.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_3.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div>
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_4.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div> 
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_5.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div> 
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_6.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div> 
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_7.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div> 
-        
-            <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
-                    <img src='assets/upload/insurance_8.jpg'  alt='香港玛丽医院'>
-                    <figcaption>
-                        <div class="name">
-                            <h3>香港玛丽医院</h3>
-                            <span>Queen Marry Hospital</span> 
-                        </div>
-                    </figcaption>
-                </figure>
-            </div> 
-                
-        </div><!-- /.row -->
-    </div>
-</div><!-- /.slide.categories -->
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(114.117799,22.549405);//定义一个中心点坐标
+        map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
+        window.map = map;//将map变量存储在全局
+    }
+    
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+    
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+    var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+    map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+    var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+    map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+    var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+    map.addControl(ctrl_sca);
+    }
+    
+    //标注点数组
+    var markerArr = [{title:"深圳市格蕾医疗公司",content:"深圳深南大道1002号地王大厦1205<br/>电话：+86&nbsp;0755&nbsp;26008787",point:"114.117138|22.549122",isOpen:0,icon:{w:23,h:25,l:46,t:21,x:9,lb:12}}
+         ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+            var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+            var iw = createInfoWindow(i);
+            var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+            marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#808080",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+            
+            (function(){
+                var index = i;
+                var _iw = createInfoWindow(i);
+                var _marker = marker;
+                _marker.addEventListener("click",function(){
+                    this.openInfoWindow(_iw);
+                });
+                _iw.addEventListener("open",function(){
+                    _marker.getLabel().hide();
+                })
+                _iw.addEventListener("close",function(){
+                    _marker.getLabel().show();
+                })
+                label.addEventListener("click",function(){
+                    _marker.openInfoWindow(_iw);
+                })
+                if(!!json.isOpen){
+                    label.hide();
+                    _marker.openInfoWindow(_iw);
+                }
+            })()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon
+    function createIcon(json){
+        var icon = new BMap.Icon("http://app.baidu.com/map/assets/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+    
+    initMap();//创建和初始化地图
+</script> 

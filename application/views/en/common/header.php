@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"> 
-<title><?php echo $title;?></title> 
-<meta name="keywords" content="格蕾医疗">  
+<title><?php echo $title;?> - GREY MEDICAL</title> 
+<meta name="keywords" content="GREY MEDICAL">  
 <meta name="description" content="三小时 四城 亚洲名医">
 <meta name="GOOGLEBOT" content="INDEX, FOLLOW" />
 <meta name="robots" content="index, follow" />    
@@ -20,27 +20,55 @@
 <script src="js/respond.min.js"></script>
 <![endif]-->
 <base href="<?php echo base_url();?>">
-<link href="assets/css/main.min.css" rel="stylesheet">
-<link href="assets/css/home.css" rel="stylesheet">	
+<link href="assets/en/css/main.min.css" rel="stylesheet">
+<!--
+<link href="assets/css/home.css" rel="stylesheet">
+<link href="assets/css/work.css" rel="stylesheet">
+<link href="assets/css/services.css" rel="stylesheet">
+<link href="assets/css/contact.css" rel="stylesheet">
+<link href="assets/css/about.css" rel="stylesheet">
+-->
+<style>
+    .js-pic-480{
+        position: relative!important;
+        display: block!important;
+        width: 100%!important;
+        height: 0!important;
+        padding-top: 66.6666%!important;
+    }
+    .js-pic-360{
+        position: relative!important;
+        display: block!important;
+        width: 100%!important;
+        height: 0!important;
+        padding-top: 125%!important;
+    }
+    .js-pic-360 img, .js-pic-480 img{
+        position: absolute!important;
+        left: 0!important;
+        top: 0!important;
+        width: 100%!important;
+        height: 100%!important;
+    }
+</style>
 </head>
 <body>
-<body>
-<div class="body-page-heading"><h1>格蕾医疗</h1></div>
+<div class="body-page-heading"><h1>GREY MEDICAL</h1></div>
 <div class="navbar navbar-default navbar-fixed-top main-menu tiny" role="navigation">
   	<div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">目录</span>
+                <span class="sr-only">Menu</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
             <div class="navbar-collapse collapse " style="height: auto;">
               <ul class="nav navbar-nav">
-                <li class="active"><a href="index.php" title="首页">首页</a></li>
-                <li class=""><a href="news.php" title="新闻中心">新闻中心</a></li>
-                <li class=""><a href="about.php" title="关于我们">关于我们</a></li>
-                <li class=""><a href="faq.php" title="F&amp;Q">F&amp;Q</a></li> 
+                <li class="active"><a href="index.php" title="Home">Home</a></li>
+                <li class=""><a href="index.php/news" title="News">News</a></li>
+                <li class=""><a href="index.php/about" title="About Us">About Us</a></li>
+                <li class=""><a href="index.php/faq" title="F&amp;Q">F&amp;Q</a></li> 
               </ul>
             </div><!--/.nav-collapse -->
             <?php if($lang === 'cn') { ?>
@@ -49,7 +77,7 @@
 				<a class="navbar-language" href="<?php echo base_url('index.php/index/change_word');?>" title="中文版"><img src="assets/images/language_0.jpg" width="26" height="19" alt="中文版"></a>
         	<?php } ?>
             
-            <a class="navbar-brand" href="index.php" title="格蕾医疗"><img src="assets/images/blank.png" alt="格蕾医疗"></a>
+            <a class="navbar-brand" href="index.php" title="GREY MEDICAL"><img src="assets/images/blank.png" alt="格蕾医疗"></a>
         </div>        
   	</div>
 </div>

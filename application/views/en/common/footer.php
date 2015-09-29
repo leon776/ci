@@ -2,10 +2,9 @@
     <div class="container">
         <div class="row">	
             <div class="col-sm-12 col-md-9 row1"> 
-        		© 格蕾医疗网 粤ICP备 15019080号
+        		©  GREY MEDICAL 粤ICP备 15019080号
             </div>			 
-            <div class="col-sm-12 col-md-3 row2">
-            	<a href="#" title="法律声明">法律声明</a> &nbsp; | &nbsp; <a href="#" title="联系我们">联系我们</a>               
+            <div class="col-sm-12 col-md-3 row2" style="text-align:right"><a href="index.php/about" title="Contact Us">Contact Us</a>               
             </div>		
         </div>    	
     </div><!-- /.container -->

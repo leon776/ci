@@ -28,9 +28,29 @@
 <link href="assets/css/contact.css" rel="stylesheet">
 <link href="assets/css/about.css" rel="stylesheet">
 -->
-<script>
-
-</script>
+<style>
+    .js-pic-480{
+        position: relative!important;
+        display: block!important;
+        width: 100%!important;
+        height: 0!important;
+        padding-top: 66.6666%!important;
+    }
+    .js-pic-360{
+        position: relative!important;
+        display: block!important;
+        width: 100%!important;
+        height: 0!important;
+        padding-top: 125%!important;
+    }
+    .js-pic-360 img, .js-pic-480 img{
+        position: absolute!important;
+        left: 0!important;
+        top: 0!important;
+        width: 100%!important;
+        height: 100%!important;
+    }
+</style>
 </head>
 <body>
 <div class="body-page-heading"><h1>格蕾医疗</h1></div>

@@ -8,7 +8,7 @@
       	<p class="line"></p>
         <div class="row grid cs-style-3"> <!-- 上传图片大小：360*450px -->
             <div class='col co-xs-6 col-sm-6 col-md-3'>
-                <figure>
+                <figure class="js-pic-360">
                     <img src='admin/attached/image/<?php echo $doctor['thumb']?>'  alt=''>  
                 </figure>
             </div>

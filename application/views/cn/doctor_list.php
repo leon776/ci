@@ -54,7 +54,7 @@
         <div class="row grid cs-style-3"> <!-- 上传图片大小：360*450px -->
             <div class='col co-xs-6 col-sm-6 col-md-3'>
                 <figure>
-                    <a href="index.php/doctor/doctor_detail/<?php echo $value['id']?>" title=""><img src='admin/attached/image/<?php echo $value['thumb']?>'  alt=''></a>
+                    <a href="index.php/doctor/doctor_detail/<?php echo $value['id']?>" class="js-pic-360"><img src='admin/attached/image/<?php echo $value['thumb']?>'  alt=''></a>
                 </figure>
             </div>
         

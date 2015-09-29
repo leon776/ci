@@ -26,7 +26,9 @@
         <div class="row grid cs-style-3"> <!-- 上传图片大小：480*312px -->
             <div class='col co-xs-6 col-sm-6 col-md-4'>
                 <figure>
-                    <img src='admin/attached/image/<?php echo $value['thumb']?>' style="width:480px;height:312px;">
+                    <div class="js-pic-480">
+                    <img src='admin/attached/image/<?php echo $value['thumb']?>'>
+                    </div>
                     <figcaption>
                         <div class="name"> 
                             <h3><em><?php echo $value['level'];?></em> <?php echo $value['cn_name'];?></h3>

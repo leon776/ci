@@ -29,7 +29,7 @@
             <div class="carousel-caption">
                 <h2>全球医保</h2>
                 <h3>三小时 四城 亚洲名医</h3>
-                <p class="more"><a href="index.php/about" title="了解更多">了解更多</a></p> 
+                <p class="more"><a href="index.php/insurance" title="了解更多">了解更多</a></p> 
             </div>
         </div>          
   	</div>
@@ -38,8 +38,8 @@
   		<ol class="carousel-indicators">
         <li class=""><a href="index.php/hospital"><p><b><span class="icon-hospital"></span></b></p>医院</a></li>
         <li class=""><a href="index.php/doctor"><p><b><span class="icon-doctor"></span></b></p>医生</a></li>
-        <li class=""><a href="javascript:"><p><b><span class="icon-surgery"></span></b></p>手术</a></li> 
-        <li class=""><a href="index.php/about"><p><b><span class="icon-insurance"></span></b></p>全球医保</a></li> 
+        <li class=""><a href="index.php/operate"><p><b><span class="icon-surgery"></span></b></p>手术</a></li> 
+        <li class=""><a href="index.php/insurance"><p><b><span class="icon-insurance"></span></b></p>全球医保</a></li> 
   		</ol>        
     </div>
 </div><!-- /.carousel --> 
@@ -60,7 +60,7 @@
           	<div class="col col-xs-12 col-sm-6 col-md-6">
           		<div class="title"><a class="more" href="index.php/news/" title="更多">更多 <em>&gt;</em></a> 最新资讯</div>
             	<div class="row news_photo">
-                	<div class="col col-xs-12 col-sm-6 col-md-4"><a href="index.php/news/detail/<?php echo $newsList[0]['id']?>" title=""><img src="admin/attached/image/<?php echo $newsList[0]['thumb']?>" width="100%" alt="" class="img-responsive"></a></div>
+                	<div class="col col-xs-12 col-sm-6 col-md-4"><a href="index.php/news/detail/<?php echo $newsList[0]['id']?>" class="js-pic-480"><img src="admin/attached/image/<?php echo $newsList[0]['thumb']?>" width="100%" alt="" class="img-responsive"></a></div>
                     <div class="col col-xs-12 col-sm-6 col-md-8">
                     	<h4 class="name"><a href="index.php/news/detail/<?php echo $newsList[0]['id']?>" title=""><?php echo strip_tags($newsList[0]['title']);?></a></h4>
                         <div class="intro">
@@ -72,16 +72,17 @@
                 
                 <ul class="news_list">
                 <?php
+                if(!empty($newsList)) {
                     foreach ($newsList as $key => $value) {
                         if($key === 0) {continue;}
                         echo '<li><a href="index.php/news/detail/'.$value['id'].'"><span class="date">'.date('Y/m/d', $value['create_time']).'</span> '.$value['title'].'</a></li>';
                     }
-                ?>
+                }?>
                 </ul>
           	</div>
             
             <div class="col col-xs-12 col-sm-6 col-md-6">
-       		  	<div class="title"><a class="more" href="#" title="更多">更多 <em>&gt;</em></a> 联系我们</div>
+       		  	<div class="title"><a class="more" href="index.php/about" title="更多">更多 <em>&gt;</em></a>联系我们</div>
                 <div class="address">
                 	<p><img src="assets/images/shenzhen.png" width="100%" alt="shenzhen" class="img-responsive"></p>
                     <p>	地址：  深圳深南大道1002号地王大厦1205<br>

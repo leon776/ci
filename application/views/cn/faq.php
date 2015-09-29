@@ -11,7 +11,7 @@
 
         <?php $i=0;foreach ($faqList as $key => $value) {$i++;?>
         <li class="list"> 
-            <h3 class="name"><?php echo $i;?><?php echo $value['title'];?></h3>
+            <h3 class="name"><?php echo $i;?>. <?php echo $value['title'];?></h3>
             <p><?php echo $value['content'];?></p> 
         </li>
         <?php }?>
