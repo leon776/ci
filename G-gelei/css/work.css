@@ -1,0 +1,156 @@
+
+/* insurance  */
+.insurance_1, .insurance_2  { padding-bottom:60px;line-height:1.8;font-size:14px; color:#a5a4a4;text-align:center; background-color:#fbfbfb;}
+.insurance_2 { background-color:#e6e6e6;}
+.insurance_1 .name, .insurance_2 .name { color:#555555;}
+.insurance_1 .txt, .insurance_2 .txt { padding:30px 0;}
+
+.slide.portfolio .container { padding-left:30px;padding-right:30px;}
+.slide.portfolio .col {padding:0px !important}
+.slide.portfolio .title { margin:10px 0 35px;font-size:30px; font-weight:normal;color:#555555; text-align:center;}
+ 
+.grid{padding:0}
+.grid div.col {position: relative}
+.grid figure{margin:0; position:relative}
+.grid figure img{max-width:100%; display:block; position:relative}
+.grid figcaption{position:absolute; top:0; left:0; padding:10px 20px; background:#fff; color:#5b5b5b}
+.grid figcaption .name { position:absolute;left:0;top:50%; margin-top:-25px;width:100%;height:50px;}
+.grid figcaption h3{ margin:0; padding:0;line-height:32px;font-size:24px; font-weight:normal;color:#ffffff;}
+.grid figcaption span{ display:block;line-height:18px; font-size:14px;color:#b3b3b3;text-transform:uppercase;}
+.grid figcaption a{margin:7px 0;border:1px solid rgba(0,0,0,0.2); color:#5b5b5b;font-size:12px;}
+.grid figcaption a:hover{background-color: #5b5b5b; border:1px solid #5b5b5b;color:#fff}
+.grid .nickname { margin:20px 0 0;font-size:18px; color:#555555;}
+.grid .more { margin-bottom:30px;}
+.grid .more a { display:inline; padding:5px 10px; font-size:12px;color:#41d14a;border:1px solid #41d14a;}
+.grid .more a b { font-family:"宋体"; font-style:normal;}
+.grid .more a:focus, .grid .more a:hover { text-decoration:none;color:#29912f; border-color:#29912f;}
+
+.cs-style-3 figure{overflow:hidden}
+.cs-style-3 figure img{-webkit-transition:-webkit-transform 0.4s; -moz-transition:-moz-transform 0.4s; transition:transform 0.4s;}
+
+.no-touch .cs-style-3 figure:hover img, 
+.cs-style-3 figure.cs-hover img{ -webkit-transform:scale(1.5,1.5); -moz-transform:scale(1.5,1.5); -ms-transform:translateY(-50px); transform:scale(1.5,1.5)}
+
+.cs-style-3 figcaption{ height:100%; width:100%; top:auto; bottom:0; text-align:center; background:url(../images/bg.png) repeat;-webkit-transform:translateY(100%); -moz-transform:translateY(100%); -ms-transform:translateY(100%); transform:translateY(100%); -webkit-backface-visibility:hidden; -moz-backface-visibility:hidden; backface-visibility:hidden; -webkit-transition:-webkit-transform 0.4s,opacity 0.1s 0.3s; -moz-transition:-moz-transform 0.4s,opacity 0.1s 0.3s; transition:transform 0.4s,opacity 0.1s 0.3s}
+.no-touch .cs-style-3 figure:hover figcaption, 
+.cs-style-3 figure.cs-hover figcaption{ -webkit-transform:translateY(0px); -moz-transform:translateY(0px); -ms-transform:translateY(0px); transform:translateY(0px); -webkit-transition:-webkit-transform 0.4s,opacity 0.1s; -moz-transition:-moz-transform 0.4s,opacity 0.1s; transition:transform 0.4s,opacity 0.1s}
+ 
+.hospital { background-color:#fbfbfb;}
+.hospital .cs-style-3 figcaption { height:80px; text-align:left;-webkit-transform:translateY(0px); -moz-transform:translateY(0px); -ms-transform:translateY(0px); transform:translateY(0px);}
+.hospital .grid figcaption .name { width:90%; left:5%;}
+.hospital .grid figcaption h3 { font-size:20px;}
+.hospital .grid figcaption h3 em { float:right;line-height:22px;font-size:14px;font-style:normal;color:#41d14a;}
+.hospital .grid .line { clear:both; margin:0 15px 30px; height:30px;border-bottom:1px solid #d1d1d1;}  
+.hospital .txt { padding-left:10px;}
+.hospital .txt .name { margin:0 0 20px;font-size:18px; color:#555555;}
+.hospital .txt .contact { margin:15px 0 0; padding-top:15px;border-top:1px dotted #ddd;}
+.hospital .txt .en { margin-top:12px;font-size:12px; line-height:1.2;}
+.hospital .txt .more { clear:both; margin-top:25px; text-align:right;}
+.hospital .txt .more a { display:inline-block; padding:6px 15px 6px 20px;font-size:14px;color:#41d14a; border:2px solid #41d14a;}
+.hospital .txt .more a b { padding-left:12px; font-size:16px;font-family:"宋体"; font-style:normal;}
+.hospital .txt .more a:hover { text-decoration:none;}
+.hospital .page { margin:10px 0 25px;} 
+.hospital .f3 { color:#4a4a4a;}
+.news .txt .name a { font-size:20px;color:#555555;}
+.news .txt .name a:focus, .news .txt .name a:hover { text-decoration:none;color:#41d14a;}
+.news .txt .name .date { float:right; padding-top:5px;font-size:16px;color: #888;}
+.news_title {  margin-bottom:30px;padding-bottom:25px; font-size:14px;text-align:center;border-bottom:1px solid #d1d1d1;}
+.news_title h1 { margin:0 0 8px; line-height:1.2;font-size:30px;color:#555555;}
+.news_cont img { margin:0 0 15px; max-width:100%;}
+.surgery .txt { padding-left:0px;}
+.surgery .txt .name { margin:0 0 5px;font-size:26px; color:#555555;} 
+.surgery .grid .line { height:35px; margin-bottom:0;}
+.surgery_doctor { padding:10px 0 20px;font-size:24px;color:#555555;}
+.doctor .txt .name { margin:0 0 10px;font-size:30px; color:#555555;}
+.doctor .txt .intro { font-size:16px;}
+.doctor_detail { padding-top:0;background-color:#FFF;}
+.doctor_detail .line { height:30px;border-top:1px solid #d1d1d1;} 
+.doctor_detail .txt .name { margin-bottom:0;font-size:24px; color:#555555;}
+.doctor_intro { margin-bottom:30px;padding-bottom:35px;border-bottom:1px solid #d1d1d1; color:#4a4a4a;}
+.doctor_intro dt { padding-bottom:15px;font-size:24px; color:#555555;}
+.doctor_intro .spacing { padding-left:100px;}
+.return { clear:both; padding:20px 0 10px;text-align:right;font-size:20px;color:#41d14a;} 
+.return a { color:#41d14a;}
+
+
+@media (max-width: 640px) {
+	.cs-style-3 figure{overflow:visible}
+	.cs-style-3 figcaption{ visibility: visible;backface-visibility:visible; }
+}
+
+
+/* RPOJECT DETAIL */
+.slide.project.page-heading .container {padding-left:24px; padding-right:24px}
+.slide.project.page-heading h1{ display:block;margin:0;float:none;font-size:45px; text-align: left}
+.slide.project.page-heading p { display: block;text-align: left}
+.slide.project.page-heading .col-left {padding-left:0}
+.slide.project.page-heading .col-right { text-align: right; margin-top: 22px;}
+.slide.project.page-heading .col-right a i{ display:inline-block;width:25px; height:34px;margin-left:10px;background: url(../images/sprite-project-detail.png) no-repeat 4px top}
+.slide.project.page-heading .col-right a i.icon-right-open { background-position: -19px top}
+.slide.project.page-heading .col-right a i.icon-th{ background-position: -42px top; width:38px;}
+
+.slide.project-detail { padding:30px 0;}
+.slide.project-detail .row .col-left { text-align: left}
+.slide.project-detail .row .col-left .description { padding-bottom: 20px}
+.slide.project-detail .row .col-left .description h4 { color:#000}
+.slide.project-detail .row .col-left .description li { margin-left: 17px;}
+.slide.project-detail .project-detail-image-row { margin-bottom: 10px}
+
+
+/* SIMILAR PROJECTS */
+.slide.similar-projects{ background-color:#F9F9F9;padding-bottom: 70px }
+.slide.similar-projects .header { margin-bottom: 50px}
+.slide.similar-projects .header h1 {}
+
+.popover {z-index: 9999 !important; }
+.popover-title { font-size:16px;font-family: 'open_sanslight' !important}
+.popover-content {padding:0}
+/*.slide.footer .col3 a:hover{ background-color: #8BC9DE; border-color:#8BC9DE;color:#fff}*/
+
+
+@media (max-width: 1024px) {
+	.grid figcaption h3{ font-size:20px;}
+	.grid figcaption a, .grid figcaption span{font-size:14px;}
+	.grid figcaption a{right:5px}
+}
+@media (max-width: 640px) { 
+	.slide.page-heading h1 { font-size:24px} 
+	
+	.slide.project.page-heading { padding-top:110px 0 30px 0; text-align: center}
+	.slide.project.page-heading h1 { font-size:35px}
+	.slide.project.page-heading h1, .slide.project.page-heading p { text-align: center}
+	.slide.project.page-heading .col-right { margin-top:15px;text-align: center}
+	.slide.project-detail { padding:20px 0;}
+	.slide.project-detail .container{ padding:0;}
+	.slide.project-detail .row .col-right { padding:0;}
+	#project-brief a { margin-bottom: 25px; display: block;}
+	
+	.grid figcaption{position:absolute; padding:10px; }
+	.grid figcaption h3 { font-size:20px}
+	.cs-style-3 figure img{-webkit-transition:none; -moz-transition:none; transition:none}
+
+	.no-touch .cs-style-3 figure:hover img, 
+	.cs-style-3 figure.cs-hover img{-webkit-transform:none; -moz-transform:none; -ms-transform:none; transform:none}
+	.cs-style-3 figcaption{height:80px; width:100%; top:auto; bottom:0; opacity:1; -webkit-transform:none; -moz-transform:none; -ms-transform:none; transform:none; -webkit-backface-visibility:visible; -moz-backface-visibility:visible; backface-visibility:visible; -webkit-transition:-webkit-transform 0.4s,opacity 0.1s 0.3s; -moz-transition:-moz-transform 0.4s,opacity 0.1s 0.3s; transition:transform 0.4s,opacity 0.1s 0.3s}
+	
+	.similar-projects .row.grid .col { margin-bottom: 20px}
+	.hospital .txt { padding-left:0px;}
+	.hospital .txt .more { text-align:center;}
+	.news_title h1 { font-size:24px;}
+}
+@media (max-width: 480px) {
+	.slide.portfolio .col { padding-bottom:15px !important}		
+	.hospital .txt { padding-top:25px;}
+	.hospital .page { margin:0;} 
+	.doctor_intro .spacing { display:block; padding-left:0;}
+	.news_title h1 { font-size:22px;}
+}
+@media (min-width: 690px) and (max-width: 1024px) {
+	.slide.page-heading h1 { font-size:25px}
+	.nav.nav-pills.filters li a {font-size:12px;display: block !important; min-width:100% !important}
+	.nav.nav-pills.filters li a .badge{display: none}
+	
+	.slide.project.page-heading h1 { font-size:35px}  
+	
+}
+

@@ -1,0 +1,48 @@
+.slide.map-canvas { height:600px; border:1px solid #EEEEEE;}
+.iw_poi_title {color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap}
+.iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word}
+.pop .center, .pop .bottom { box-sizing:content-box;}
+
+.office-address { position: absolute; right:40px; top:360px; z-index:1000;width:409px; background-color: #fff; border:1px solid #cccccc;-webkit-box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.1);
+box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.1);}
+.office-address .image { height:245px; overflow: hidden;}
+.office-address .content { padding:20px 25px}
+.office-address .content h3 {  font-size:24px; margin:0 0 8px 0; padding:0; line-height: 32px;color:#555555;}
+.office-address .content span { display: block; font-size:15px; padding:1px 0; color:#a5a4a4;}
+.office-address .content span a { color: #a5a4a4;}
+.office-address .content span a:hover{ color:#555555;}
+
+.slide.about { padding:15px 0;}
+.about_advantage { list-style-type:none;}
+.about_advantage .list { list-style-type:none;padding:40px 0 25px;line-height:1.8;font-size:14px;color:#a5a4a4;border-bottom:1px solid #ececec; overflow:hidden;}
+.about_advantage .list .pic { float:left; margin:5px 50px 25px 0;}
+.about_advantage .list h3 { margin:0 0 15px; font-size:24px;color:#555555;}
+.about_advantage .dual .pic { float:right; margin:0 0 25px 60px;}
+.about_advantage li:last-child{ border:none;}
+
+.faq { padding-top:10px; padding-bottom:10px;background-color:#fbfbfb;}
+.faq_list .list { list-style-type:none;padding:25px 0;line-height:1.8;font-size:14px;color:#a5a4a4;border-bottom:1px solid #ececec; overflow:hidden;}
+.faq_list .list .name { margin:5px 0 18px;font-size:24px; color:#555555;}
+
+
+@media (max-width: 640px) {  
+	.slide.page-heading h1 { font-size:29px}
+	.slide.page-heading p { font-size:14px; line-height: 19px;}
+	.slide.map-canvas { height:300px;}
+	.office-address { position:static; width:auto; min-width:100% !important;left:auto; right:auto;top:auto; box-shadow:none; -webkit-box-shadow:none; border:0}
+	.office-address .image img {min-width: 100%}
+	
+	.about_advantage .list .pic { margin:5px 40px 15px 0;}
+	.about_advantage .dual .pic { margin:0 0 15px 40px;}
+	.faq { padding-top:0; padding-bottom:0;}
+}
+
+@media (max-width: 360px) {
+	.about_advantage .list { text-align:center;}
+	.about_advantage .list .pic, .about_advantage .dual .pic { float:none;width:100%;margin:0 0 30px;}
+}
+
+@media (max-width: 1100px) {
+	.office-address { width:300px} 
+}
+
