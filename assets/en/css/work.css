@@ -4,6 +4,8 @@
 .insurance_2 { background-color:#e6e6e6;}
 .insurance_1 .name, .insurance_2 .name { color:#555555;}
 .insurance_1 .txt, .insurance_2 .txt { padding:30px 0;}
+.legal-notice { text-align:left;}
+.legal-notice h4 { margin:20px 0;}
 
 .slide.portfolio .container { padding-left:30px;padding-right:30px;}
 .slide.portfolio .col {padding:0px !important}

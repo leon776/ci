@@ -4367,6 +4367,7 @@ input.parsley-error, select.parsley-error, textarea.parsley-error {
 
 @media (max-width:640px) {
 /*.row, .slide, body {margin:0;padding:0}*/
+.navbar-default{ padding-top:5px;padding-bottom:5px;}
 .navbar-toggle {
 border:0
 }
@@ -4472,6 +4473,6 @@ border-top:1px solid rgba(255, 255, 255, .2)
 .page a.prev, .page a.next { font-size:20px;color:#FFF;background:#61e769; font-family:"宋体";}  
 .page a:hover{ color:#FFF; text-decoration:none; background:#41d14a;}
 .page img { vertical-align:middle;}
-.page .current, .page .disabled { display:inline-block;margin:0 2px;width:42px;height:42px;line-height:42px;color:#FFF;text-decoration:none;vertical-align:middle;text-align:center;background:#41d14a;}
-.page .disabled { color:#CCC;background:#FFF;}  
+.page span.current, .page span.disabled { display:inline-block;margin:0 2px;width:42px;height:42px;line-height:42px;color:#FFF;text-decoration:none;vertical-align:middle;text-align:center;background:#41d14a;}
+.page span.disabled { color:#CCC;background:#FFF;}  
 /* End page */

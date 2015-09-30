@@ -4,7 +4,7 @@
   <p style="margin-bottom:0;">
     <a href="<?php echo base_url('index.php/hospital/add')?>" class="btn  btn-primary" style="margin-left:0;">添加</a>
     <span style="float:right; font-size:14px">
-    共 <?php echo $count?> 调数据
+    共 <?php echo $count?> 条数据
   </span>
   </p>
 </div>
